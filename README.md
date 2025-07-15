@@ -1,7 +1,7 @@
 # Hawkeye
 
-This repository contains the source codes of the prototype for our submission: `HAWKEYE: Diagnosing RDMA Network Performance Anomalies
-with PFC Provenance`.
+This repository contains the source codes of the prototype for our paper: `HAWKEYE: Diagnosing RDMA Network Performance Anomalies
+with PFC Provenance` in SIGCOMM 2025.
 
 It contains the NS-3 simulator in `./simulation/`; the detection agent monitoring RTT in `./detection-agent/`; the Tofino switch codes including p4 files for the data plane in `./switch/`, and C files for the controller in `./ctrl/`.
 
