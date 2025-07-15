@@ -1,0 +1,19 @@
+#
+# Copyright (c) 2021-2024 NVIDIA CORPORATION & AFFILIATES, ALL RIGHTS RESERVED.
+#
+# This software product is a proprietary product of NVIDIA CORPORATION &
+# AFFILIATES (the "Company") and all right, title, and interest in and to the
+# software product, including all associated intellectual property rights, are
+# and shall remain exclusively with the Company.
+#
+# This software product is governed by the End User License Agreement
+# provided with the software product.
+#
+option('enable_trace_log', type: 'boolean', value: false,
+	description: 'Enable trace log.')
+
+option('enable_pcc_application_tx_counter_sampling', type: 'boolean', value: false,
+	description: 'Enable sampling of TX bytes counter in PCC application.')
+
+option('enable_pcc_application_np_rx_rate', type: 'boolean', value: false,
+	description: 'Enable PCC application CC rate update via notification point RX bytes.')
